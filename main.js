@@ -78,8 +78,8 @@ function changeBackgroundColor() {
 document.getElementById("new-grid").addEventListener("click", function () {
     let gridSize;
     do {
-        gridSize = +prompt("Enter a new grid size.");
-    } while (!gridSize);
+        gridSize = +prompt("Enter a new grid size. Maximum size: 200x200");
+    } while (!gridSize || gridSize < 0 || gridSize > 200);
 
     removeGrid();
     createGrid(gridSize);
