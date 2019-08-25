@@ -1,7 +1,7 @@
 # Etch-a-Sketch
 
 ## Introduction
-This is a project from the Odin Project curriculum. It's essentially a grid which you can sketch on. 
+This is a project from the Odin Project curriculum. It's essentially a grid which you can sketch on. You can visit it at https://amdrija.github.io/etch-a-sketch
 
 ## How it works
 You have a squared grid whose cells get colored when you hover over them with your mouse. You have 3 modes:
